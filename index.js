@@ -25,7 +25,7 @@ router.get('/api/404', async ( ctx )=>{
   ctx.body = '404 page!'
 })
 router.get('/api/helloworld', async ( ctx )=>{
-  ctx.body = 'helloworld page!'
+  ctx.body = 'helloworld page test!'
 })
 
 // 加载路由中间件
